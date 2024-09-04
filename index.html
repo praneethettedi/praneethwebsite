@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praneeth Ettedi's Portfolio</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://www.creativefabrica.com/wp-content/uploads/2022/11/12/Realistic-glassmorphism-background-Graphics-46262863-1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        nav, .nav-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 0 2rem;
+        }
+
+        .nav-links {
+            gap: 1rem;
+            list-style: none;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            margin: 2rem auto;
+            border-radius: 1rem;
+        }
+
+        .section img {
+            max-width: 100%;
+            border-radius: 1rem;
+        }
+
+        #profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .btn-container {
+            margin: 2rem 0;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            background: black;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: grey;
+        }
+
+        .contact-info-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1rem;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Praneeth Ettedi</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="profile" class="section">
+        <div>
+            <img src="https://media.licdn.com/dms/image/D5603AQGaPIqZE9GKPA/profile-displayphoto-shrink_200_200/0/1682931621386?e=2147483647&v=beta&t=Prs7dddCik-z1y6NZZRL0ulyOg8q6hWuVMcFju3zGIw" alt="Praneeth Ettedi Profile Picture" />
+            <h1>Praneeth Ettedi</h1>
+            <p>Undergraduate Student</p>
+            <div class="btn-container">
+                <a href="https://github.com/praneethettedi" class="btn">GitHub</a>
+                <a href="mailto:praneethettedi7@gmail.com" class="btn">Email Me</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am Praneeth Ettedi, currently an undergraduate student with a passion for technology and development. My focus is on front-end development, and I am continually expanding my skill set to include a variety of technologies and programming languages. I am dedicated to learning and growing in the field of computer science, with a particular interest in creating impactful and user-friendly web applications.
+        </p>
+    </section>
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <p>
+            As an undergraduate, I have gained experience in various aspects of front-end development. My skill set includes HTML, CSS, and JavaScript, with a growing knowledge in frameworks and libraries. I am enthusiastic about applying my skills to real-world projects and contributing to meaningful technological advancements.
+        </p>
+    </section>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>
+            Here are some of the projects I have worked on:
+            <ul>
+                <li><a href="https://github.com/praneethettedi/project1" target="_blank">Project One</a></li>
+                <li><a href="https://github.com/praneethettedi/project2" target="_blank">Project Two</a></li>
+                <li><a href="https://github.com/praneethettedi/project3" target="_blank">Project Three</a></li>
+            </ul>
+        </p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-info-container">
+            <p>Email: <a href="mailto:praneethettedi7@gmail.com">praneethettedi7@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/praneethettedi" target="_blank">github.com/praneethettedi</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Praneeth Ettedi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
